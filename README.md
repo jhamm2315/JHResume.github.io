@@ -36,7 +36,7 @@ Each project in this portfolio is a testament to my expertise in data science, s
 
 I invite you to explore the projects in detail and discover the value that data science can bring to your organization.
 
-Visit my full portfolio: [Justynn Hammond - Data Scientist](https://jhamm2315.github.io)
+Visit my full portfolio: [Justynn Hammond - Data Scientist](https://jhresume.github.io)
 Technologies:
 - Python
 - SQL

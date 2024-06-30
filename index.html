@@ -1,0 +1,127 @@
+<!DOCTYPE html>
+<html lang="en-us">
+
+<head>
+  <meta charset="UTF-8">
+  <title>Justynn's Portfolio</title>
+  <!-- Use relative paths for internal stylesheets -->
+  <link rel="stylesheet" href="static/css/style.css">
+  <!-- Include Bootstrap via CDN for ease of use -->
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+  <!-- Use a favicon related to your portfolio -->
+  <link rel="icon" href="https://img.icons8.com/plasticine/100/000000/combo-chart.png">
+</head>
+
+<body>
+  <!-- Navbar -->
+  <nav class="navbar navbar-expand-lg navbar-light bg-light">
+    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse justify-content-end" id="navbarNav">
+      <ul class="navbar-nav">
+        <!-- Consider using a loop for navigation items -->
+        <li class="nav-item active">
+          <a class="nav-link" href="index.html"> Home <span class="sr-only">(current)</span></a>
+        </li>
+        <li class="nav-item active">
+          <a class="nav-link" href="about_me.html"> About Me <span class="sr-only">(current)</span></a>
+        </li>
+        <li class="nav-item active">
+          <a class="nav-link" href="projects.html"> Projects <span class="sr-only">(current)</span></a>
+        </li>
+        <li class="nav-item active">
+          <a class="nav-link" href="contacts.html"> Contact <span class="sr-only">(current)</span></a>
+        </li>
+      </ul>
+    </div>
+  </nav>
+
+  <!-- Jumbotron -->
+  <div class="jumbotron">
+    <div id='intro'>
+      <h1 class="display-4">Welcome to My Portfolio!</h1>
+      <p class="lead">Personal website and Portfolio</p>
+    </div>
+    <a class="btn btn-primary btn-lg" href="about_me.html#resume" role="button">My Resume</a>
+  </div>
+
+  <!-- About Me Section -->
+  <section id="bio1">
+    <div class="container">
+      <div class="row">
+        <div class="col-md-7">
+          <h2>Introduction</h2>
+          <p>
+            Hello, my name is Justynn Hammond. I am currently enrolled in the Mater's Degree Program at The Jim Moran College of Entrepreneurship at The Florida State University. I will complete this program in 2026. I have 6 years of expeeriance as a Sr. Data Analyst, focusing on advanced data programming languages and tools for a future in Data Science.
+          </p>
+          <p>
+            I graduated from the Rogers State Univeristy in 2013 with a BS in Commmuinication Management. I also graduated from Univeristy of Denver in 2021 in Computer Science. I am a Cetified Analytics Professional (CAP) welcome to my resume portfolio.
+           I have succeced in my professional career in Healthcare, Logisticts, Public/Privite entities, Rail Data, and Data Science.  
+            I have worked with top companies such as State of Florida, Amazon, OmniTrax, FedEx, and National Jewish Health. I have been driven by my passion for technology, 
+            and my ability to be highly creative and analytical has lead me see that I am a valuable asset to any organization.
+          </p>
+          <a href="about_me.html">Learn more about me.</a>
+        </div>
+        <div class="col-md-5">
+          <img src="static/images/Linkedin Pic JH.png" alt="Justynn Hammond" width="350px">
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Projects Section -->
+  <section id="projects" class='alternate'>
+    <div class='container'>
+      <div class="row">
+        <div class="col-md-12">
+          <h2>Projects</h2>
+          <p>
+            Check out some of the projects I've worked on. Find detailed information on the <a href="projects.html">Projects page</a> or visit my <a href="https://github.com/jhamm2315/">GitHub</a> for more.
+          </p>
+          <ul>
+            <!-- Use a loop or better organization for project links -->
+            <li><a href="https://github.com/jhamm2315/project-1-">Analysis of Air Quality and Pollution during COVID-19 Lockdown </a></li>
+            <li><a href="https://github.com/jhamm2315/ETL">Extract Transform Load (ETL) Video Game Data</a></li>
+            <li><a href="https://github.com/jhamm2315/Hammond-API-Challege-">Making API Calls with Analysis</a></li>
+            <li><a href="https://github.com/jhamm2315/Hammond-Python-Challenge">Python Challenge</a></li>
+            <li><a href="https://github.com/jhamm2315/plotly_challenge">Plotly Challenge</a></li>
+            <li><a href="https://github.com/jhamm2315/Movie_Correlation">Data Cleaning with Movie Data</a></li>
+            <li><a href="https://github.com/jhamm2315/">GitHub Main Repository</a></li>
+          </ul>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Progress Bar Section -->
+  <section id="progress_bar">
+    <div class='container'>
+      <div class="row">
+        <div class="col-md-12">
+          <h2>University Of Denver Data Analytics / Data Science Program</h2>
+          <h5 class="text-center">Progress</h5>
+          <div class="progress">
+            <!-- Provide a more dynamic way of showing progress -->
+            <div class="progress-bar" role="progressbar" style="width: 100%" aria-valuenow="100" aria-valuemin="0" aria-valuemax="100">
+              Completed 2021 Graduate!!!
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Powr Hit Counter -->
+  <div class="powr-hit-counter" id="f01716e8_1617390990"></div>
+  <script src="https://www.powr.io/powr.js?platform=html"></script>
+
+  <!-- Footer -->
+  <footer>
+    <div>Icons made by <a href="https://www.flaticon.com/authors/freepik" title="Freepik">Freepik</a> and <a href="https://www.flaticon.com/authors/pixel-perfect" title="Pixel perfect">Pixel perfect</a> from <a href="https://www.flaticon.com/" title="Flaticon">www.flaticon.com</a></div>
+  </footer>
+  <!-- script -->
+  <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
+  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+

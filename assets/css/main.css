@@ -1120,7 +1120,8 @@ input, select, textarea {
 		z-index: 1;
 	}
 
-		#bg:before, #bg:after {
+		#bg:before,
+		#bg:after {
 			content: '';
 			display: block;
 			position: absolute;
@@ -1130,6 +1131,7 @@ input, select, textarea {
 			height: 100%;
 		}
 
+		/* Overlay + subtle grid from the theme */
 		#bg:before {
 			-moz-transition: background-color 2.5s ease-in-out;
 			-webkit-transition: background-color 2.5s ease-in-out;
@@ -1139,16 +1141,14 @@ input, select, textarea {
 			-webkit-transition-delay: 0.75s;
 			-ms-transition-delay: 0.75s;
 			transition-delay: 0.75s;
-			background-image: linear-gradient(to top, rgba(19, 21, 25, 0.5), rgba(19, 21, 25, 0.5)), url("../../images/overlay.png");
-			background-size: auto,
- 256px 256px;
-			background-position: center,
- center;
-			background-repeat: no-repeat,
- repeat;
+			background-image: linear-gradient(to top, rgba(19,21,25,0.5), rgba(19,21,25,0.5)), url("../../images/overlay.png");
+			background-size: auto, 256px 256px;
+			background-position: center, center;
+			background-repeat: no-repeat, repeat;
 			z-index: 2;
 		}
 
+		/* Scenic photo */
 		#bg:after {
 			-moz-transform: scale(1.125);
 			-webkit-transform: scale(1.125);
@@ -1165,20 +1165,20 @@ input, select, textarea {
 			z-index: 1;
 		}
 
-		body.is-article-visible #bg:after {
-			-moz-transform: scale(1.0825);
-			-webkit-transform: scale(1.0825);
-			-ms-transform: scale(1.0825);
-			transform: scale(1.0825);
-			-moz-filter: blur(0.2rem);
-			-webkit-filter: blur(0.2rem);
-			-ms-filter: blur(0.2rem);
-			filter: blur(0.2rem);
-		}
+	body.is-article-visible #bg:after {
+		-moz-transform: scale(1.0825);
+		-webkit-transform: scale(1.0825);
+		-ms-transform: scale(1.0825);
+		transform: scale(1.0825);
+		-moz-filter: blur(0.2rem);
+		-webkit-filter: blur(0.2rem);
+		-ms-filter: blur(0.2rem);
+		filter: blur(0.2rem);
+	}
 
-		body.is-preload #bg:before {
-			background-color: #000000;
-		}
+	body.is-preload #bg:before {
+		background-color: #000000;
+	}
 
 /* Wrapper */
 
@@ -1677,26 +1677,3 @@ p.cta {
 	min-width: 200px;
 	text-align: center;
   }
-
-/* === BG visibility fixes & hard override === */
-/* Some deployments keep body.is-preload, which leaves a black overlay over the BG. Force it transparent. */
-body.is-preload #bg:before {
-  background-color: transparent !important;
-}
-
-/* Ensure the scenic image shows even if :after is overridden elsewhere. */
-#bg {
-  background-image: url("../../images/spectacular-view-several-mountains-dry-terrain-with-clear-sky.jpg");
-  background-size: cover;
-  background-position: center;
-  background-repeat: no-repeat;
-  background-attachment: fixed;
-}
-
-/* Belt-and-suspenders: keep :after using the same image with highest precedence. */
-#bg:after {
-  background-image: url("../../images/spectacular-view-several-mountains-dry-terrain-with-clear-sky.jpg") !important;
-  background-position: center;
-  background-size: cover;
-  background-repeat: no-repeat;
-}

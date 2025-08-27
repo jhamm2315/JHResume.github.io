@@ -1158,7 +1158,7 @@ input, select, textarea {
 			-webkit-transition: -webkit-transform 0.325s ease-in-out, -webkit-filter 0.325s ease-in-out;
 			-ms-transition: -ms-transform 0.325s ease-in-out, -ms-filter 0.325s ease-in-out;
 			transition: transform 0.325s ease-in-out, filter 0.325s ease-in-out;
-			background-image: url("images/spectacular-view-several-mountains-dry-terrain-with-clear-sky.jpg"");
+			background-image: url("../../images/spectacular-view-several-mountains-dry-terrain-with-clear-sky.jpg");
 			background-position: center;
 			background-size: cover;
 			background-repeat: no-repeat;
@@ -1677,3 +1677,26 @@ p.cta {
 	min-width: 200px;
 	text-align: center;
   }
+
+/* === BG visibility fixes & hard override === */
+/* Some deployments keep body.is-preload, which leaves a black overlay over the BG. Force it transparent. */
+body.is-preload #bg:before {
+  background-color: transparent !important;
+}
+
+/* Ensure the scenic image shows even if :after is overridden elsewhere. */
+#bg {
+  background-image: url("../../images/spectacular-view-several-mountains-dry-terrain-with-clear-sky.jpg");
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+}
+
+/* Belt-and-suspenders: keep :after using the same image with highest precedence. */
+#bg:after {
+  background-image: url("../../images/spectacular-view-several-mountains-dry-terrain-with-clear-sky.jpg") !important;
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+}

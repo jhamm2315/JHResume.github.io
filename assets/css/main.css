@@ -1677,3 +1677,30 @@ p.cta {
 	min-width: 200px;
 	text-align: center;
   }
+
+/* === Custom background image === */
+#bg {
+  /* point to your image */
+  background-image: url("images/spectacular-view-several-mountains-dry-terrain-with-clear-sky.jpeg"); 
+  background-size: cover;          /* responsive fill */
+  background-position: center;     /* keep subject centered */
+  background-repeat: no-repeat;
+  background-attachment: fixed;    /* stays static on scroll */
+  /* The Dimension template already positions #bg, these just ensure the image renders */
+}
+
+/* optional: add a subtle dark overlay for text contrast */
+#bg::after {
+  content: "";
+  position: absolute;
+  inset: 0;
+  background: rgba(10, 12, 16, 0.45);
+  pointer-events: none;
+}
+
+/* iOS/Android fallback: some mobile browsers ignore background-attachment: fixed */
+@media (max-width: 980px) {
+  #bg {
+    background-attachment: scroll; /* prevents jitter on mobile */
+  }
+}

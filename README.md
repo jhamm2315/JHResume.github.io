@@ -1,4 +1,4 @@
-# Justynn Hammond - Data Scientist
+# Justynn Hammond - ANALYTICS ENGINGEER 
 
 Welcome to my online portfolio! I'm Justynn Hammond, a passionate and results-driven Analytics Engineer with a strong background in data analytics, data engineering, ETL Pipelines, Python, TypeScript NODE.js, S3, DOCKER, and data management. I am dedicated to transforming complex data into valuable insights that drive impactful business decisions.
 
@@ -51,6 +51,7 @@ Technologies:
 - MongoDB
 - APIs
 - JavaScript
+
 
 
 

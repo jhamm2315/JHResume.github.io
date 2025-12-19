@@ -212,6 +212,18 @@
       .project img { width: 100%; height: 160px; object-fit: cover; border-radius: 8px; }
       .tags { display: flex; flex-wrap: wrap; gap: .4rem; margin: .5rem 0; }
       .tag { font-size: .8rem; padding: .2rem .5rem; border: 1px solid #e5e7eb; border-radius: 999px; }
+
+      /* Study hub */
+      #study .bar { display:flex; gap:.75rem; align-items:center; flex-wrap:wrap; margin-bottom:1rem; }
+      #study input#study-search { flex:1; min-width:220px; }
+      .tabs { display:flex; gap:.5rem; flex-wrap:wrap; }
+      .tabs button { border:1px solid #e5e7eb; padding:.35rem .7rem; border-radius:999px; background:transparent; cursor:pointer; }
+      .tabs button.active { border-width:2px; }
+      .notes-grid { display:grid; gap:1rem; grid-template-columns: repeat(auto-fill, minmax(280px,1fr)); }
+      .note { border:1px solid #e5e7eb; border-radius:12px; padding:12px 14px; }
+      .note .meta { display:flex; gap:.5rem; flex-wrap:wrap; margin-top:.5rem; opacity:.9; }
+      .chip { font-size:.8rem; padding:.15rem .5rem; border:1px solid #e5e7eb; border-radius:999px; }
+      .warn { color:#c0392b; }
     </style>
   </head>
   <body class="is-preload">
@@ -373,7 +385,7 @@
 
   // Supabase config (uses your Project ID)
   const SUPABASE_URL = 'https://uymuwikmssxdtbeocoyf.supabase.co';
-  const SUPABASE_ANON_KEY = 'PASTE_YOUR_ANON_PUBLIC_KEY_HERE'; // Supabase → Settings → API → anon public
+  const SUPABASE_ANON_KEY = 'sb_publishable_ER4iXdw7aQRT25icZttTug_p3YJEPxW'; // Supabase → Settings → API → anon public
 
   const supabase = createClient(SUPABASE_URL, SUPABASE_ANON_KEY);
 

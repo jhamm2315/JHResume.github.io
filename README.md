@@ -1,16 +1,16 @@
-# Justynn Hammond - Data Scientist
+# Justynn Hammond - ANALYTICS ENGINGEER 
 
-Welcome to my online portfolio! I'm Justynn Hammond, a passionate and results-driven Data Scientist with a strong background in data analysis, programming, and data management. I am dedicated to transforming complex data into valuable insights that drive impactful business decisions.
+Welcome to my online portfolio! I'm Justynn Hammond, a passionate and results-driven Analytics Engineer with a strong background in data analytics, data engineering, ETL Pipelines, Python, TypeScript NODE.js, S3, DOCKER, and data management. I am dedicated to transforming complex data into valuable insights that drive impactful business decisions.
 
 ## About Me
 
-Studying Data Analytics captivated me due to my passion for storytelling with data and the ability to provide insights into intriguing personal and business inquiries. As I transitioned from a professional athlete to pursuing a career as a Data Scientist, I found this field to be exceptionally valuable and relevant.
+Studying Analytics Engineering captivated me due to my passion for storytelling with data and the ability to provide insights into intriguing personal and business inquiries. As I transitioned from a professional athlete to pursuing a career as a Data Scientist, I found this field to be exceptionally valuable and relevant to my skills in Computer Science.
 
-I am a technology enthusiast driven by a passion for creativity, analytics, and problem-solving. With a keen interest in data analytics and programming, I have embraced these fields as both a personal passion and a valuable skill set applicable across various industries. The ability to utilize data to uncover meaningful patterns and trends and the power of programming to bring those insights to life are what truly excite me about the world of Data Analytics.
+I am a technology enthusiast driven by a passion for creativity, analytics, and problem-solving. With a keen interest in data programming, I have embraced this field as both a personal passion and a valuable skill set applicable across various industries. The ability to utilize data to uncover meaningful patterns and trends and the power of programming to bring those insights to life are what truly excite me about the world of Data Analytics.
 
 ## Portfolio Overview
 
-In this portfolio, you will find a showcase of some of my most exciting projects and accomplishments in the field of Data Science. I have carefully curated each project to highlight various aspects of data analysis, visualization, data science, and machine learning.
+In this portfolio, you will find a showcase of some of my most exciting projects and accomplishments in the field of Data Science. I have carefully curated each project to highlight various aspects of data analysis, visualization, data science, and machine learning, as well as projects that reflect my knowledge of front-end development and backend as well.
 
 ## Projects
 
@@ -36,15 +36,22 @@ Each project in this portfolio is a testament to my expertise in data science, s
 
 I invite you to explore the projects in detail and discover the value that data science can bring to your organization.
 
-Visit my full portfolio: [Justynn Hammond - Data Scientist](https://jhamm2315.github.io)
+Visit my full portfolio: [Justynn Hammond - Data Scientist](https://jhamm2315.github.io/JHResume.github.io/index.html)
 Technologies:
 - Python
+- TypeScript
+- NODE.js
+- Docker
+- S3
 - SQL
-- Tableau
+- Tableau / Power BI
 - Excel
 - VBA
 - HTML / CSS
 - MongoDB
 - APIs
-- KPIs
 - JavaScript
+
+
+
+
